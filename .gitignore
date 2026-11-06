@@ -71,3 +71,6 @@ htmlcov/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Local setup note, not part of the public repo
+SETUP-ON-THIS-PC.md
