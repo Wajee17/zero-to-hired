@@ -4,12 +4,12 @@ Before the course proper. Getting the tools working and finding out where I actu
 
 ## Checklist
 
-- [ ] Python 3.12+ installed, `python --version` works in a fresh terminal
+- [x] Python 3.12+ installed, `python --version` works in a fresh terminal
 - [ ] Editor installed and able to run a file
 - [ ] Terminal basics: `cd`, listing files, running `python file.py`
 - [ ] First script written and run
 - [ ] Jupyter notebook opens
-- [ ] Git installed, `git --version` works
+- [x] Git installed, `git --version` works
 - [ ] This repository cloned, and a first commit pushed
 - [ ] Placement diagnostic taken
 - [ ] Weekly lane agreed and recorded in `progress/PROGRESS.md`
