@@ -5,14 +5,14 @@ Before the course proper. Getting the tools working and finding out where I actu
 ## Checklist
 
 - [x] Python 3.12+ installed, `python --version` works in a fresh terminal
-- [ ] Editor installed and able to run a file
-- [ ] Terminal basics: `cd`, listing files, running `python file.py`
-- [ ] First script written and run
-- [ ] Jupyter notebook opens
+- [x] Editor installed and able to run a file
+- [x] Terminal basics: `cd`, listing files, running `python file.py`
+- [x] First script written and run
+- [x] Jupyter notebook opens
 - [x] Git installed, `git --version` works
-- [ ] This repository cloned, and a first commit pushed
-- [ ] Placement diagnostic taken
-- [ ] Weekly lane agreed and recorded in `progress/PROGRESS.md`
+- [x] This repository cloned, and a first commit pushed
+- [x] Placement diagnostic taken
+- [x] Weekly lane agreed and recorded in `progress/PROGRESS.md`
 
 ## Placement diagnostic
 
