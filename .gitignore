@@ -1,0 +1,73 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Environments ---
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# --- Secrets. Never commit these. ---
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+credentials.*
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# --- Data. Keep the repo small; READMEs say where to get the data. ---
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.db
+*.sqlite3
+*.h5
+*.hdf5
+# ...but small fixtures used by tests are fine:
+!**/tests/fixtures/*.csv
+!**/fixtures/*.csv
+
+# --- Models and checkpoints. These belong on a model host, not in git. ---
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.joblib
+models/
+checkpoints/
+runs/
+wandb/
+mlruns/
+lightning_logs/
+
+# --- Tooling ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# --- Editors and OS ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini

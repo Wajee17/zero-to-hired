@@ -1,0 +1,47 @@
+name: tests
+
+# Runs the tests I have written so far. From Week 7 onward most weeks add some.
+# Weeks with no tests pass trivially rather than failing the build — this is a learning
+# repository, and a permanently red badge teaches nothing except to ignore the badge.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install pytest
+        run: python -m pip install --upgrade pip pytest
+
+      - name: Install any week-level requirements
+        run: |
+          shopt -s globstar nullglob
+          for f in **/requirements.txt; do
+            echo "::group::$f"
+            python -m pip install -r "$f" || echo "skipped $f"
+            echo "::endgroup::"
+          done
+        shell: bash
+
+      - name: Run tests
+        run: |
+          # Exit code 5 means "no tests collected", which is fine early on.
+          python -m pytest -q --continue-on-collection-errors
+          status=$?
+          if [ $status -eq 5 ]; then
+            echo "No tests yet — passing."
+            exit 0
+          fi
+          exit $status
+        shell: bash
