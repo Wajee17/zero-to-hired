@@ -16,31 +16,29 @@ versioned, and I can see how it changed over time with `git log -p progress/PROG
 
 ```
 === PROGRESS BLOCK ===
-Date:
-Current: Part I · Phase 0 · Week 0 · Lesson — (status: not started)
-Mastered lessons:
-Review ledger (lesson: box, next due date):
+Date: 2026-11-06
+Current: Part I · Phase 0 · Week 0 complete · Next: Lesson 1.1 (not started)
+Mastered lessons: none yet
+Review ledger (lesson: box, next due date): empty
 Overdue reviews: 0
-Weak concepts:
-Shaky topics:
-Recurring mistakes:
-Error log (last 10):
-Brain dumps / concept maps / own-words cheat sheets done:
-Checkpoints:
-Exams:
-Mini-projects (Part I):
-Portfolio projects: P0 — · P1 — · P2 — · P3 — · P4 —
-SQL strand (Wks 17-24):
-Problems solved (title: hints used):
-DSA maintenance (Part II): total 0
-Chosen specialisation: — (decide by Wk 50)
-Lane: — · Flex weeks used: 0 of 4
-Next up: Week 0 setup and placement diagnostic
-Hours this week:
+Weak concepts: none logged (no lessons taught yet)
+Shaky topics: [placement: str*int repetition; range() end is exclusive; 0-based and negative indexing; int vs float result types; loop logic for running max, 2026-11-06]
+Recurring mistakes: skipping predictions before running code; pasting output before command finishes
+Error log (last 10): [git commit said "nothing to commit": file edited but not saved; check for the ● dot and save first] · [VS Code ran as Administrator (user install): extensions failed, no Jupyter kernels; fixed by reinstalling with the System Installer]
+Brain dumps / concept maps / own-words cheat sheets done: none
+Checkpoints: none yet
+Exams: Phase 0 —, Phase 1 —, Phase 2 —, Part I Final —
+Mini-projects (Part I): none yet
+Portfolio projects: P0 —
+Problems solved (title: hints used): placement only
+Placement: 6/10 · start L1.1 · test-out candidates L2.1, L3.1
+Setup: Windows, VS Code (System Installer), Python 3.14.6, Git (email wajeehaider94@gmail.com, linked), Jupyter via VS Code + ipykernel
+Chosen specialisation: — (undecided, decide by Wk 50)
+Lane: full (12 h/week) · Flex weeks used: 0 of 4
+Repo: last commit 2026-11-06 · weeks committed: 1 (Week 0)
+Next up: Lesson 1.1, How programs work: first programs and errors
+Hours this week: ~2.5 (Week 0)
 === END ===
-```
-
----
 
 ## Weekly log
 
