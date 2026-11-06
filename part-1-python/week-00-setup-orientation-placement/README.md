@@ -27,6 +27,8 @@ Before the course proper. Getting the tools working and finding out where I actu
 <!-- Anything that went wrong during installation and how it was fixed. This is worth writing down:
      environment problems recur, and in six months the fix will not be obvious again. -->
 
+ - Git email: this repo has its own setting in `.git/config` that overrides `--global`. Set both. Using Gmail, which must be verified on GitHub.
+
 ## What I got wrong
 
 <!-- Even setup weeks have mistakes. PATH problems, wrong Python version, the editor pointing at a
