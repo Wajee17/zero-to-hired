@@ -15,29 +15,14 @@ the start of every session and saved again at the end. Keeping it here means it 
 versioned, and I can see how it changed over time with `git log -p progress/PROGRESS.md`.
 
 ```
-=== PROGRESS BLOCK ===
-Date: 2026-11-06
-Current: Part I · Phase 0 · Week 0 complete · Next: Lesson 1.1 (not started)
-Mastered lessons: none yet
-Review ledger (lesson: box, next due date): empty
-Overdue reviews: 0
-Weak concepts: none logged (no lessons taught yet)
-Shaky topics: [placement: str*int repetition; range() end is exclusive; 0-based and negative indexing; int vs float result types; loop logic for running max, 2026-11-06]
-Recurring mistakes: skipping predictions before running code; pasting output before command finishes
-Error log (last 10): [git commit said "nothing to commit": file edited but not saved; check for the ● dot and save first] · [VS Code ran as Administrator (user install): extensions failed, no Jupyter kernels; fixed by reinstalling with the System Installer]
-Brain dumps / concept maps / own-words cheat sheets done: none
-Checkpoints: none yet
-Exams: Phase 0 —, Phase 1 —, Phase 2 —, Part I Final —
-Mini-projects (Part I): none yet
-Portfolio projects: P0 —
-Problems solved (title: hints used): placement only
-Placement: 6/10 · start L1.1 · test-out candidates L2.1, L3.1
-Setup: Windows, VS Code (System Installer), Python 3.14.6, Git (email wajeehaider94@gmail.com, linked), Jupyter via VS Code + ipykernel
-Chosen specialisation: — (undecided, decide by Wk 50)
-Lane: full (12 h/week) · Flex weeks used: 0 of 4
-Repo: last commit 2026-11-06 · weeks committed: 1 (Week 0)
-Next up: Lesson 1.1, How programs work: first programs and errors
-Hours this week: ~2.5 (Week 0)
+=== RESUME BLOCK ===
+Lesson 1.1, stopped after Step 3 (concept beats complete) · resume at Step 4 (guided coding)
+Core concepts covered so far: 1.1-a, 1.1-b, 1.1-c, 1.1-d, 1.1-e, plus comments · still to cover: none
+Remaining steps: 4 guided coding, 5 pitfall tour, 6 interview round, 7 three problems, 8 mastery gate (incl. delayed recall of 1.1-a to e), 9 teach-back, 10 close and commit
+Open question on the table: none
+Mid-lesson grades: hook Solid · two-phase explanation Solid · syntax+runtime file Solid · reading the a.py SyntaxError Partial, then Solid (fix: close the bracket) · REPL vs script Solid · shop.py fix Partial (print(price) shows 20), re-test Solid · comments trap Solid
+Gate status: not yet evaluated
+Housekeeping still open: (1) confirm the Week 0 commit was pushed (git status says "up to date") · (2) VS Code interpreter: set to C:\Python314\python.exe, not Store Python 3.13 · (3) move a.py, b.py, c.py into the week-01 lessons\ folder
 === END ===
 
 ## Weekly log
