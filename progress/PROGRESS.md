@@ -22,10 +22,10 @@ Problems solved (title: hints used): Greeting banner: 0 · Times-table row: 1 ·
 Placement: 6/10 · test-out candidates L2.1, L3.1
 Setup: Windows, VS Code (System Installer), Python 3.14.6 at C:\Python314, Git (wajeehaider94@gmail.com, linked), Jupyter via VS Code + ipykernel
 Chosen specialisation: — (undecided, decide by Wk 50)
-Lane: full (12 h/week) · Flex weeks used: 0 of 4
+Lane: full (12 h/week; ~10 focused h for Week 0 + L1.1–L1.3, on budget) · Flex weeks used: 0 of 4
 Repo: last commit 2026-11-08 (L1.3 pending push) · weeks committed: 2
 Next up: Warm-up (1.1, 1.2, 1.3 due) → Week 1 checkpoint (brain dump + concept map, 6 questions + 1 coding, closed-book) → mini-project "Mad-libs and unit converter"
-Hours this week: ~20 (Week 0 + L1.1–L1.3)
+Hours this week: ~10 focused (Week 0 + L1.1–L1.3)
 === END ===
 
 ## Weekly log
