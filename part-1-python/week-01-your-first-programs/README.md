@@ -9,11 +9,10 @@
 
 ## What I got wrong
 
-<!-- The actual mistakes, with enough detail to be useful in six months.
-
-     Good:  Assumed `list.sort()` returned the sorted list. It returns None and sorts in place.
-            Cost me 20 minutes because the traceback pointed at the next line, not the real cause.
-     Bad:   Struggled with sorting. -->
+- I predicted `"Python"[::-1]` would be empty, because I read the blanks as start=0, stop=6
+  and you can't walk backwards from 0 to 6. Actually, with a negative step the blanks flip:
+  blank start = the end, blank stop = past the beginning, so it reverses the whole string.
+  Rule: backwards step, backwards blanks.
 
 ## Still shaky
 
