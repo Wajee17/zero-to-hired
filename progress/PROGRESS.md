@@ -16,6 +16,7 @@ versioned, and I can see how it changed over time with `git log -p progress/PROG
 
 ```
 === RESUME BLOCK ===
+
 Lesson 1.1, stopped after Step 3 (concept beats complete) · resume at Step 4 (guided coding)
 Core concepts covered so far: 1.1-a, 1.1-b, 1.1-c, 1.1-d, 1.1-e, plus comments · still to cover: none
 Remaining steps: 4 guided coding, 5 pitfall tour, 6 interview round, 7 three problems, 8 mastery gate (incl. delayed recall of 1.1-a to e), 9 teach-back, 10 close and commit
