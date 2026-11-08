@@ -1,0 +1,11 @@
+name = input("Name: ")
+adjective = input("Adjective: ")
+noun = input("Noun: ")
+verb = input("Verb: ")
+place = input("Place: ")
+number = int(float(input("Number: ")))
+
+print(f"While walking home, {name.title()} noticed something bizarre happening down the street.")
+print(f"A group of street performers were {verb.lower()}ing right in front of a {adjective.lower()} {noun}.")
+print(f"A crowd quickly gathered, causing a massive traffic jam that backed up all the way to {place}.")
+print(f"The police arrived to clear the road, but it took them {number + 1} hours just to move the crowd. - Reported by Agent {name[:1].title()}.")
