@@ -21,6 +21,11 @@
   `if member != 'y' and member != 'n':` (`!=` joined with `or` is always True).
   Rule: a bare string is always truthy.
 
+- For "sum of 1 to n" I wrote `for num in range(n):` and pasted `Sum of 1 to 10 = 45`
+  without comparing it with the expected 55. `range(n)` is 0..n-1, so it skipped n.
+  Fix: `range(1, n + 1)`. Rule: range stops before `stop`, the same wall as slicing,
+  and always check output against the spec before submitting.
+
 ## Still shaky
 
 <!-- What you would fail a question on right now. Being honest here is what makes the spaced
