@@ -26,6 +26,12 @@
   Fix: `range(1, n + 1)`. Rule: range stops before `stop`, the same wall as slicing,
   and always check output against the spec before submitting.
 
+- I started running-best values at 0 three times (meter readings, second largest).
+  A made-up 0 silently beats or loses to real data: all-zero readings gave
+  "house None", negative readings gave "No second largest". Fix: start from the
+  data (best = items[0]) or use None for "nothing yet", never a fake 0.
+  Rule: start from the data, not from zero; and always test all-negative/all-zero inputs.
+
 ## Still shaky
 
 <!-- What you would fail a question on right now. Being honest here is what makes the spaced

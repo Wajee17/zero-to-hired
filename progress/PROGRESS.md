@@ -3,29 +3,29 @@
 Where I actually am. Updated at the end of every session.
 
 === PROGRESS BLOCK ===
-Date: 2026-11-11
-Current: Part I · Phase 0 · Week 2 · L2.2 done (shaky) · Next: L2.3 Lists and tuples
-Mastered lessons: 1.1 (shaky), 1.2 (shaky), 1.3 (shaky), 2.1 (shaky), 2.2 (shaky)
-Review ledger (lesson: box, next due date): 1.1: B2 2026-11-11 (DUE) · 1.2: B2 2026-11-11 (DUE) · 1.3: B2 2026-11-12 · 2.1: B1 next session · 2.2: B1 next session
-Overdue reviews: 0 (1.1 and 1.2 due at the next session)
-Weak concepts: [2.2-a: while runs AS LONG AS the condition is True; infinite loop = nothing in the body makes it False, B1, partial 2026-11-11, re-test Solid] · [2.2-c: the accumulator's start value decides its TYPE and result (0 + "1" TypeError; product starts at 1), B1, missed 2026-11-11, re-test Solid] · [2.2-b: range excludes stop: range(1, n + 1) for 1..n, B1, problem bug 2026-11-11] · [2.1-c: WHY elif order matters: several can be true, only the first runs, B1, partial 2026-11-10] · [2.1-truthy: bool("0") is True (non-empty string), B1, missed 2026-11-10, re-test Solid]
-Memory hooks: L1.1 b "Unprinted work is invisible" · c "REPL talks back, script stays quiet" · e "Bottom says what, above says where" · L1.2 c "Convert makes a copy, not a change" · d "Same group? Leftmost wins" · e "input() always hands you text" · L1.3 index "One house: must exist. A range: whatever's there" · slice "Backwards step, backwards blanks" · immutability "No tag, no keep" · L2.1 short-circuit "No A? Don't fetch B" · elif "First match wins, so specific first" · or-trap "A bare string is always truthy" · L2.2 accumulator "Before, inside, after" · loops "For each item; while until" · range "Same wall as slicing"
-Shaky topics: [placement: running-max loop logic → revisit in L2.3 with lists, 2026-11-06] · [teach-back: cover every required point unprompted, 2026-11-11] · ['' (empty str) vs None, 2026-11-08] · [.find() returns -1 → silent slicing bug, 2026-11-08] · [float == comparison → abs(a - b) < tiny, 2026-11-09] · [for re-tags its variable every round; reassigning it inside has no effect, 2026-11-11]
-Recurring mistakes: skipping the "why" (3 prompts on string vs int) · output "nearly" matches the spec (trailing ".", "1 attempts", pasted 45 for 55): compare against the sample before pasting · describing instead of giving the exact value · test runs typed into PowerShell instead of the program · magic numbers (use a named constant) · duplicated lines in both branches (write them once after the if/else)
-Error log (last 10): [member != 'y' or 'Y' → always True] · [0.1 + 0.2 == 0.3 is False: float precision] · [items == "" read as falsy; it's True] · [bool("0") predicted False → True] · [elif "why": said "sequence matters" without "several true, first wins"] · [range(n) for 1..n → 45, pasted unchecked] · [total = 0; total += "1" predicted "123" → TypeError on round 1] · [reassigning i inside for predicted an error → no effect] · [while example given as "walk a whole string" → that's for] · ["1 attempts left" → conditional expression for the plural]
+Date: 2026-11-12
+Current: Part I · Phase 0 · Week 2 · all 3 lessons done · Next: Week 2 checkpoint + mini-project
+Mastered lessons: 1.1 (shaky), 1.2 (shaky), 1.3 (shaky), 2.1 (shaky), 2.2 (shaky), 2.3 (shaky; closest to mastered so far)
+Review ledger (lesson: box, next due date): 1.1: B3 2026-11-18 · 1.2: B3 2026-11-18 · 1.3: B2 2026-11-12 (DUE) · 2.1: B1 2026-11-13 · 2.2: B2 2026-11-14 · 2.3: B1 next session
+Overdue reviews: 0 (1.3 due now; the checkpoint will cover it)
+Weak concepts: [2.3-start-value: start a running best from the data (items[0]) or None, never 0; hit 3 times, B1, 2026-11-12] · [2.3-b: remove() is by VALUE (first match), pop(i) by position and returns the item, B1, recall partial 2026-11-12, re-test Solid] · [2.3-chain: chained brackets act on the previous result (words[0][-1] = last char of the first word), B1, missed 2026-11-12, re-test Solid x2] · [2.1-c: several conditions can be true, only the first runs, B1, recalled whole after a nudge 2026-11-11] · [2.2-c: the accumulator's start value decides its type, B2, re-test Solid 2026-11-11]
+Memory hooks: L1.1 b "Unprinted work is invisible" · c "REPL talks back, script stays quiet" · e "Bottom says what, above says where" · L1.2 c "Convert makes a copy, not a change" · d "Same group? Leftmost wins" · e "input() always hands you text" · L1.3 index "One house: must exist. A range: whatever's there" · slice "Backwards step, backwards blanks" · immutability "No tag, no keep" · L2.1 short-circuit "No A? Don't fetch B" · elif "First match wins, so specific first" · or-trap "A bare string is always truthy" · L2.2 accumulator "Before, inside, after" · loops "For each item; while until" · range "Same wall as slicing" · L2.3 running best "Start from the data, not from zero" · sort "In-place hands back None" · zip "Zip stops at the shortest, silently"
+Shaky topics: [teach-back: L2.3 Solid, improving, 2026-11-12] · ['' vs None; is None, not == None, 2026-11-12] · [.find() returns -1 → silent slicing bug, 2026-11-08] · [float == comparison → abs(a - b) < tiny, 2026-11-09] · [split() vs split(" "): no argument handles blanks and extra spaces, 2026-11-12] · [only-spaces input: check the split LIST, not the raw string, 2026-11-12]
+Recurring mistakes: skipping the "why" (it cost L2.2 and L2.3 their 80% interview scores) · output "nearly" matches the spec (Hightest, "1 attempts", "7 is prime.", the missing "Unique: ", "No Second") · test runs not actually run (traced or typed into PowerShell) · fake start values (0) for running bests · "string" said when meaning "list"
+Error log (last 10): [range(n) for 1..n → 45, pasted unchecked] · [total = 0; += "1" → TypeError round 1] · [reassigning i inside for has no effect] · [pop() predicted ['b'] → returns 'b'] · [b = nums.sort() → None] · [running best start 0 → "house None"; negatives ignored] · [second largest: old largest not moved down; start 0 broke negatives and 0] · [remove-duplicates kept the LAST copy → flip: keep if not seen] · [words[0][-1] read as two list picks → acts on "apple"] · [s.split() said to split into characters → splits on whitespace; list("abc") for chars]
 Brain dumps / concept maps / own-words cheat sheets done: Week 1 brain dump ✓ · Week 1 concept map ✓
 Checkpoints: Wk1 88/100
 Exams: Phase 0 — (end of Week 3), Phase 1 —, Phase 2 —, Part I Final —
 Mini-projects (Part I): Week 1 "Mad-libs and unit converter" ✓ · Week 2 "Number-guessing game and grade calculator": not started
 Portfolio projects: P0 —
-Problems solved (title: hints used): Week 1: 10 problems, 1 hint · Week 2: Ticket calculator (guided): 0 · Leap year: 0 · FizzBuzz: 0 · Triangle classifier: 0 · PIN check (guided): 0 · Sum 1 to n: 1 · Is prime: 0 · Collatz: 0
-Placement: 6/10 · test-out L2.1 attempted (67%) · L3.1 still to try
-Setup: Windows, VS Code (System Installer), Python 3.14.6 at C:\Python314, Git (wajeehaider94@gmail.com, linked), Jupyter via VS Code + ipykernel · note: the terminal still opens in C:\Program Files\Microsoft VS Code (open the repo folder)
+Problems solved (title: hints used): Week 1: 10 problems, 1 hint · Week 2: Ticket (guided): 0 · Leap year: 0 · FizzBuzz: 0 · Triangle: 0 · PIN check (guided): 0 · Sum 1 to n: 1 · Is prime: 0 · Collatz: 0 · Meter readings (guided): 0 · Even/odd counter: 1 · Second largest: 2 (traced, not run) · Remove duplicates: 2
+Placement: 6/10 · Q4 (range) and Q5 (indexing) and Q10 (running max) now solved correctly · L3.1 test-out still to try
+Setup: Windows, VS Code (System Installer), Python 3.14.6 at C:\Python314, Git (wajeehaider94@gmail.com, linked), Jupyter via VS Code + ipykernel · terminal still opens in C:\Program Files\Microsoft VS Code
 Chosen specialisation: — (undecided, decide by Wk 50)
-Lane: full (12 h/week; on budget) · Flex weeks used: 0 of 4
-Repo: last push 2026-11-09 (L2.1) · L2.2 pending push · weeks committed: 3
-Next up: Warm-up (1.1, 1.2, 2.1, 2.2 due) → L2.3 Lists and tuples → Week 2 checkpoint + mini-project
-Hours this week: Week 2 so far ~9 focused (L2.1 + L2.2)
+Lane: full (12 h/week) · Flex weeks used: 0 of 4 · note: L2.2 and L2.3 ran ~4–5 focused h each; check the lane at the Phase 0 exam
+Repo: last push 2026-11-11 (L2.2) · L2.3 pending push · weeks committed: 3
+Next up: Week 2 checkpoint (brain dump + concept map + 6 questions + 1 coding; covers 1.3 due) → Week 2 mini-project "Number-guessing game and grade calculator" → Week 3: L3.1 test-out round
+Hours this week: Week 2 ~14 focused (estimate; correct it if yours differs)
 === END ===
 
 ## Weekly log
