@@ -7,6 +7,7 @@ while True:
         break
     if not score.isdigit():
         print("Not a whole number")
+        continue
     elif not 0 <= int(score) <= 100:
         print("Out of range: scores go from 0 to 100")
         continue

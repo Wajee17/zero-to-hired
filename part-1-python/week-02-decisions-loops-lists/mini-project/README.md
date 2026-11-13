@@ -7,16 +7,16 @@ Two small command-line programs from Week 2 of Zero to Hired.
 Asks for test scores one at a time until you press Enter on an empty line. Each score gets a letter
 grade (A 90+, B 80+, C 70+, D 60+, F below 60). Then it prints every score with its grade, the count,
 the average and its letter grade, the highest and lowest scores, and how many of each grade there were.
-Input that isn't a whole number from 0 to 100 is rejected and you're asked again.
+Text and out-of-range numbers are rejected with different messages, and you're asked again.
 
 **Sample run**
 ```
 Score: 95
 Score: 82
 Score: abc
-Enter a whole number between 0 and 100
+Not a whole number
 Score: 105
-Enter a whole number between 0 and 100
+Out of range: scores go from 0 to 100
 Score: 71
 Score: 58
 Score: 88
@@ -81,7 +81,8 @@ python guess.py
 ## Known limitations
 
 **grades.py**
-- Decimal scores are rejected: `87.5` gets `Enter a whole number between 0 and 100`, because `.isdigit()` only accepts digits
+- Decimal scores are rejected: `87.5` gets `Not a whole number`, because `.isdigit()` only accepts digits
+- Negative numbers get the wrong message: `-5` gets `Not a whole number` instead of `Out of range`, because `.isdigit()` fails on the minus sign before the range check runs
 - The shown average can disagree with its grade: nineteen 90s and one 89 average 89.95, which prints as `Average: 90.0 (B)`. The grade uses the exact average, but the display rounds to one decimal place
 - A superscript digit like `²` crashes it with a `ValueError`: `.isdigit()` counts it as a digit, but `int()` can't convert it
 - The grade cut-offs are written out twice, once for each score and once for the average, so changing a boundary means editing both
