@@ -32,6 +32,8 @@
   data (best = items[0]) or use None for "nothing yet", never a fake 0.
   Rule: start from the data, not from zero; and always test all-negative/all-zero inputs.
 
+- Twice in one night a fix broke something else: re-run every old test after any change
+
 ## Still shaky
 
 <!-- What you would fail a question on right now. Being honest here is what makes the spaced
