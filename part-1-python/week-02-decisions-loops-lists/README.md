@@ -7,6 +7,11 @@
 <!-- Three or four lines in your own words. Not the syllabus. If you cannot write this without
      looking it up, that is the first useful signal of the week. -->
 
+- Decisions: `if` / `elif` / `else` with comparisons and `and` / `or` / `not`. Order matters: the first true branch runs and the rest are skipped. Empty strings, empty lists and `0` are falsy, but `"0"` is truthy.
+- Loops: `for` when I know how many times, `while` until a condition turns false (and something must make it false). `break` stops the loop, `continue` skips to the next round, and `for … else` runs only if no `break` happened.
+- Lists are mutable and tuples aren't. `.sort()` changes the list in place, while `sorted()` returns a new one.
+- Checkpoint (95/100) and mini-project: a guessing game and a grade calculator. Biggest lesson: after any fix, re-run every old test.
+
 ## What I got wrong
 
 <!-- The actual mistakes, with enough detail to be useful in six months.
