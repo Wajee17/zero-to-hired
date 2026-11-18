@@ -20,6 +20,11 @@
   and the second call printed `['apple', 'pen']`. Fix: `basket=None`, then
   `if basket is None: basket = []` inside. Rule: defaults are baked once, at def.
 
+- Asked to remove duplicates from `tags` but keep their order, I couldn't do it without help.
+  `list(set(tags))` loses the order, because sets have none. I had already solved this in
+  Week 2 with a `seen` list; the fast version makes `seen` a set: `if tag not in seen:
+  unique.append(tag); seen.add(tag)`. Rule: list for order, set for seen.
+
 ## Still shaky
 
 <!-- What you would fail a question on right now. Being honest here is what makes the spaced
