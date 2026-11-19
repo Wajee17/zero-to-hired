@@ -25,6 +25,11 @@
   Week 2 with a `seen` list; the fast version makes `seen` a set: `if tag not in seen:
   unique.append(tag); seen.add(tag)`. Rule: list for order, set for seen.
 
+- To accept ints and floats I wrote `isinstance(num, int or float)`. `int or float` is just
+  `int` (`or` returns the first truthy value), so every float was rejected. I had skipped the
+  float test I was asked to add, and that was exactly the test that caught it. Fix:
+  `isinstance(num, (int, float))`. Rule: the skipped test is the one that bites.
+
 ## Still shaky
 
 <!-- What you would fail a question on right now. Being honest here is what makes the spaced
