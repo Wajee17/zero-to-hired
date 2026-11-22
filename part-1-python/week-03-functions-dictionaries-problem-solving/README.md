@@ -49,6 +49,10 @@ reproducing, shrinking the input and narrowing the bad line; edge cases with dec
   BOTH sides, and add an assert with a messy stored answer.
   Rule: clean both sides with the same function, at the comparison.
 
+- Phase 0 exam, A5: I predicted `21` for `a, b = 1, 2; a, b = b, a; print(a, b)`. The swap was
+  right, but `print(a, b)` puts a space between its arguments, so it prints `2 1`. I had written
+  `Ali 30` correctly two lines earlier. Rule: commas in print() become spaces; check exact output.
+
 ## Still shaky
 
 <!-- What you would fail a question on right now. Being honest here is what makes the spaced
@@ -67,6 +71,7 @@ reproducing, shrinking the input and narrowing the bad line; edge cases with dec
 | Score | 89 / 100 (questions 56/60, coding 33/40) |
 | Weakest section | Coding tests: missed the spec's two-owners-in-order case |
 | Repair done | Added the missing assert, cut the docstring to one line, re-ran all 6: pass |
+| Phase 0 exam | 95 / 100 (Part A 48/50, Part B 47/50), 22 Nov |
 
 ## Files
 
